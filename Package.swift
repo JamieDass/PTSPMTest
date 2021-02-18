@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "PDFTron.iOS",
-            targets: ["PDFTron.iOS", "PDFNet","Tools"]),
+            targets: ["PDFNet","Tools"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -18,9 +18,6 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(
-            name: "PDFTron.iOS",
-            dependencies: []),
         .binaryTarget(
             name: "PDFNet",
             url: "https://pdftron.s3.amazonaws.com/custom/ID-zJWLuhTffd3c/iOS/SPM/PDFNet.xcframework.zip",
