@@ -18,7 +18,7 @@ let package = Package(
         .binaryTarget(
             name: "Tools",
             url: "https://pdftron.s3.amazonaws.com/custom/ID-zJWLuhTffd3c/iOS/SPM/Tools.xcframework.zip",
-            checksum: "1e7059e50296e6f2c98913121ce32d3fc1bdebc0e02a1d5615eac35b4f3fcdec"
+            checksum: "4f87b16b7086e39fb2654b415ba84ee516b7a26c63cd5146d41c591d1f57f6a0"
         )
     ]
 )
