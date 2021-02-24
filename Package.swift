@@ -7,7 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "PDFTron.iOS",
-            targets: ["PDFNet","Tools"]),
+            targets: ["PDFNet"]),
     ],
     targets: [
         .binaryTarget(
