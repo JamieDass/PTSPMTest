@@ -13,12 +13,12 @@ let package = Package(
         .binaryTarget(
             name: "PDFNet",
             url: "https://pdftron.s3.amazonaws.com/custom/ID-zJWLuhTffd3c/iOS/SPM/PDFNet.xcframework.zip",
-            checksum: "482938ff854d915aa3c75650ef2afbf608a8f50b980bf0bc4ea1ae37b6c5dfce"
+            checksum: "560863d4b6df1e24417759c6eff5cd550780357e414f4c9bcc5bb81d5420cd5b"
         ),
         .binaryTarget(
             name: "Tools",
             url: "https://pdftron.s3.amazonaws.com/custom/ID-zJWLuhTffd3c/iOS/SPM/Tools.xcframework.zip",
-            checksum: "7c8af303ecf914dab3db1a58e12355e0c3332d05ec79954a9321e731695f363a"
+            checksum: "f2575666487aa43e388dc9ffc0d1fe963c419945c66ae9eede6879e5a63a5d05"
         )
     ]
 )
