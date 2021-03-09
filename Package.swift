@@ -13,7 +13,7 @@ let package = Package(
         .binaryTarget(
             name: "PDFNet",
             url: "https://pdftron.s3.amazonaws.com/custom/ID-zJWLuhTffd3c/iOS/SPM/PDFNet.xcframework.zip",
-            checksum: "560863d4b6df1e24417759c6eff5cd550780357e414f4c9bcc5bb81d5420cd5b"
+            checksum: "cc5831aca26d8eaa29ef5bf586073a5492a654f8030fd8344b46aa6aa8fb1ce9"
         ),
         .binaryTarget(
             name: "Tools",
