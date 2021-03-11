@@ -19,6 +19,6 @@ let package = Package(
             name: "Tools",
             url: "https://pdftron.s3.amazonaws.com/custom/ID-zJWLuhTffd3c/iOS/SPM/Tools.xcframework.zip",
             checksum: "15800b8a7c697a7c7f163f817bac31efa969cf1e12e1ff7ec875930dcccc3b34"
-        )
+        ),
     ]
 )
