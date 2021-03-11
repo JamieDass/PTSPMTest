@@ -1,24 +1,20 @@
-// swift-tools-version:5.3
-
 import PackageDescription
 
 let package = Package(
-    name: "PDFTron.iOS",
+    name: "PDFTron",
     products: [
         .library(
-            name: "PDFTron.iOS",
-            targets: ["PDFNet", "Tools"]),
+            name: "PDFTron",
+            targets: ["PDFTron", "PDFTronTools"]),
     ],
     targets: [
         .binaryTarget(
-            name: "PDFNet",
-            url: "https://pdftron.s3.amazonaws.com/custom/ID-zJWLuhTffd3c/iOS/SPM/PDFNet.xcframework.zip",
-            checksum: "cc5831aca26d8eaa29ef5bf586073a5492a654f8030fd8344b46aa6aa8fb1ce9"
-        ),
+            name: "PDFTron",
+            url: "https://www.pdftron.com/downloads/ios/packages/8.1.2/PDFTron.xcframework.zip",
+            checksum: "55b3f1f21ee5d9c9729bef8f69fde1d97bd14f407edb55b5f3e79c17ddd771b1"),
         .binaryTarget(
-            name: "Tools",
-            url: "https://pdftron.s3.amazonaws.com/custom/ID-zJWLuhTffd3c/iOS/SPM/Tools.xcframework.zip",
-            checksum: "15800b8a7c697a7c7f163f817bac31efa969cf1e12e1ff7ec875930dcccc3b34"
-        ),
+            name: "PDFTronTools",
+            url: "https://www.pdftron.com/downloads/ios/packages/8.1.2/PDFTronTools.xcframework.zip",
+            checksum: "f8b90ea9ac8888a512863154c4d6173e5c9001cf79631bf878b750380391cddb"),
     ]
 )
